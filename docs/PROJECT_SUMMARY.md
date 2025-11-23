@@ -1,4 +1,4 @@
-# 🎉 Project Complete! Research Paper Analyzer Agent
+#  Research Paper Analyzer Agent
 
 ## ✅ What We Built
 
