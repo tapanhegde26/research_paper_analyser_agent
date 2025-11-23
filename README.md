@@ -82,7 +82,7 @@
 
 ---
 
-## 🎓 Key Features Demonstrated (7/3 Required)
+## 🎓 Key Features Demonstrated
 
 This project demonstrates **7 key concepts** from the AI Agents Intensive Course (only 3 required):
 
@@ -179,11 +179,6 @@ research-paper-analyzer-agent/
 └── logs/                             # Log files
 ```
 
-**Stats:**
-- 📝 35+ Files
-- 💻 3500+ Lines of Code
-- 📚 Comprehensive Documentation
-- ✅ Production-Ready Quality
 
 ---
 
@@ -335,68 +330,6 @@ LOG_LEVEL=INFO                         # Logging level
 - `gemini-1.5-pro` - Most capable model
 - `gemini-pro` - Standard model
 
----
-
-## 📊 Performance Metrics
-
-### Actual Performance
-- ⚡ **Speed**: 5-7 papers/minute
-- 💰 **Cost**: $0.10-0.20 per paper
-- ⏱️ **Time Savings**: 80-90% reduction
-- 📈 **Scalability**: 100+ papers per session
-
-### Quality Metrics
-- ✅ **Citation Accuracy**: 95%+
-- ✅ **Summary Completeness**: High coverage
-- ✅ **Novel Insights**: Identifies hidden connections
-
----
-
-## 🎬 Demo Video Script
-
-**Title:** "AI Agents Accelerating Research: From Hours to Minutes"
-
-### Script (Under 3 minutes)
-
-1. **Problem (30s)** - Manual research is slow, error-prone, misses connections
-2. **Why Agents? (30s)** - Specialized agents work in parallel, intelligent coordination
-3. **Architecture (45s)** - 6-agent system with orchestrator pattern
-4. **Live Demo (60s)** - Real-time analysis with comprehensive synthesis
-5. **Impact (15s)** - 80-90% time reduction, democratizing research
-
----
-
-## 🏆 Competition Scoring
-
-### Category 1: The Pitch (30 points)
-- ✅ **Core Concept & Value** (15 pts): Clear problem, innovative solution, measurable impact
-- ✅ **Writeup** (15 pts): Professional documentation, architecture explained
-
-**Expected: 28-30 points**
-
-### Category 2: Implementation (70 points)
-- ✅ **Technical Implementation** (50 pts): 7 key concepts, quality code, meaningful agents
-- ✅ **Documentation** (20 pts): Complete README, setup guide, architecture docs
-
-**Expected: 66-70 points**
-
-### Bonus Points (20 points)
-- ✅ **Gemini Use** (5 pts): Uses Gemini as primary LLM
-- ⚠️ **Deployment** (3-5 pts): Deployment code included
-- ✅ **Video** (8-10 pts): Professional demo video under 3 min
-
-**Projected Total: 97-100/100 points** 🎯
-
----
-
-## 📚 Documentation
-
-- **[GETTING_STARTED.md](GETTING_STARTED.md)** - Quick start guide with examples
-- **[docs/architecture.md](docs/architecture.md)** - Detailed technical architecture
-- **[docs/deployment.md](docs/deployment.md)** - Production deployment guide
-- **[docs/QUANTUM_PHYSICS_GUIDE.md](docs/QUANTUM_PHYSICS_GUIDE.md)** - Domain customization
-- **[SUBMISSION_GUIDE.md](SUBMISSION_GUIDE.md)** - Kaggle submission checklist
-- **[PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)** - Complete project overview
 
 ---
 
@@ -435,8 +368,6 @@ gcloud run deploy research-analyzer \
   --platform managed \
   --region us-central1
 ```
-
-**See [docs/deployment.md](docs/deployment.md) for complete deployment guide.**
 
 ---
 
@@ -509,14 +440,6 @@ This project is open-source and free to use, modify, and distribute.
 
 ---
 
-## 📞 Contact
-
-- **GitHub Repository**: [Your GitHub URL]
-- **Kaggle Profile**: [Your Kaggle Profile]
-- **Email**: [Your Email]
-
----
-
 ## 🌟 Star This Project!
 
 If you find this helpful, please star the repository and share it with other researchers!
@@ -536,7 +459,5 @@ If you find this helpful, please star the repository and share it with other res
 1. ⭐ **Try it out** - Run `python src/main.py`
 2. 📖 **Read the docs** - Check `GETTING_STARTED.md`
 3. 🔬 **Customize** - Adapt for your research domain
-4. 🎬 **Share** - Create your demo video
-5. 🏆 **Submit** - Enter the Kaggle competition!
 
-**Ready to revolutionize research? Let's go!** 🔬📚✨
+
