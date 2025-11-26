@@ -340,74 +340,6 @@ LOG_LEVEL=INFO                         # Logging level
 
 ---
 
-## 📊 Performance Metrics
-
-### Actual Performance
-- ⚡ **Speed**: 5-7 papers/minute
-- 💰 **Cost**: $0.10-0.20 per paper
-- ⏱️ **Time Savings**: 80-90% reduction
-- 📈 **Scalability**: 100+ papers per session
-
-### Quality Metrics
-- ✅ **Citation Accuracy**: 95%+
-- ✅ **Summary Completeness**: High coverage
-- ✅ **Novel Insights**: Identifies hidden connections
-
----
-
-## 🎬 Demo Video Script
-
-**Title:** "AI Agents Accelerating Research: From Hours to Minutes"
-
-### Script (Under 3 minutes)
-
-1. **Problem (30s)** - Manual research is slow, error-prone, misses connections
-2. **Why Agents? (30s)** - Specialized agents work in parallel, intelligent coordination
-3. **Architecture (45s)** - 6-agent system with orchestrator pattern + Web UI
-4. **Live Demo (60s)** - Real-time analysis with WebSocket updates and Q&A
-5. **Impact (15s)** - 80-90% time reduction, democratizing research
-
----
-
-## 🏆 Competition Checklist
-
-| Requirement | Status | Implementation |
-|-------------|--------|----------------|
-| ✅ Multi-agent system | ✓ | 6 specialized agents with orchestrator |
-| ✅ Tools | ✓ | Google Search, arXiv API, PDF parser, Citation extractor, Knowledge graph |
-| ✅ Sessions & Memory | ✓ | `InMemorySessionService`, `MemoryBank` with persistent storage |
-| ✅ Observability | ✓ | Structured logging, distributed tracing, custom metrics |
-| ✅ Agent Evaluation | ✓ | Quality metrics, performance benchmarks, success rate tracking |
-| ✅ A2A Protocol | ✓ | Agent-to-agent communication via orchestrator with structured messages |
-| ✅ Agent Deployment | ✓ | FastAPI backend with WebSocket + Interactive Web UI |
-
-### Bonus Features
-- ✅ Real-time WebSocket communication
-- ✅ Interactive Q&A with context awareness
-- ✅ Parallel agent execution
-- ✅ Beautiful, responsive web UI
-- ✅ Domain-agnostic (works for any research field)
-- ✅ Auto-reconnection and error handling
-- ✅ Live agent status visualization
-
-### Category 1: The Pitch (30 points)
-- ✅ **Core Concept & Value** (15 pts): Clear problem, innovative solution, measurable impact
-- ✅ **Writeup** (15 pts): Professional documentation, architecture explained
-
-**Expected: 28-30 points**
-
-### Category 2: Implementation (70 points)
-- ✅ **Technical Implementation** (50 pts): 7 key concepts, quality code, meaningful agents
-- ✅ **Documentation** (20 pts): Complete README, setup guide, architecture docs
-
-**Expected: 66-70 points**
-
-### Bonus Points (20 points)
-- ✅ **Gemini Use** (5 pts): Uses Gemini 2.0 as primary LLM
-- ✅ **Deployment** (3-5 pts): Full-stack deployment with FastAPI + WebSocket
-- ✅ **Video** (8-10 pts): Professional demo video under 3 min
-
-**Projected Total: 97-105/100 points** 🎯
 
 ---
 
@@ -549,16 +481,6 @@ This project democratizes research by:
 - Increase `MAX_PARALLEL_AGENTS` (if you have quota)
 - Use `depth="quick"` for faster results
 
----
-
-## 🤝 Contributing
-
-This is a capstone project submission for the Google AI Agents Intensive Course.
-
-**Questions or Suggestions?**
-- Open an issue on GitHub
-- Review the documentation
-- Check the examples
 
 ---
 
@@ -578,27 +500,11 @@ MIT License - This project is open-source and free to use, modify, and distribut
 
 ---
 
-## 📞 Contact
-
-For questions or demo requests, please open an issue or contact via the Kaggle discussion forum.
-
----
-
-**Built with ❤️ for the AI Agents Capstone Challenge**
-
-**Track:** Agents for Good (Education)  
-**Submission Date:** December 2025  
-**Status:** ✅ Complete & Ready for Submission
-
----
-
 ## 🚀 Next Steps
 
 1. ⭐ **Try it out** - Run `./start_ui.sh` for Web UI or `python src/main.py` for CLI
 2. 📖 **Read the docs** - Check `docs/UI_INTEGRATION.md` and `docs/QUANTUM_PHYSICS_GUIDE.md`
 3. 🔬 **Customize** - Adapt for your research domain
-4. 🎬 **Share** - Create your demo video
-5. 🏆 **Submit** - Enter the Kaggle competition!
 
 **Ready to revolutionize research? Let's go!** 🔬📚✨
 
